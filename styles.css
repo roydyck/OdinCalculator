@@ -1,1 +1,41 @@
+#calculator {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    margin: auto;
+    gap: 5px;
+}
 
+#display {
+    flex-grow: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border: 2px solid green;
+}
+
+#keypad {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4;
+    gap: 5px;
+}
+
+.row {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.button {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid brown;
+    border-radius: 5px;
+}
